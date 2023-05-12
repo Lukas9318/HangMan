@@ -9,8 +9,8 @@ print("\nWelcome to HangMan game\n")
 name = input("Enter your name: ")
 
 ''' [1] Adding your own wordlist '''
-words_to_guess = ["firewall","server","router"]
-
+#words_to_guess = ["firewall","server","router"]
+words_to_guess = ["A","Q","W"]
 game = HangMan(name)
 while(True):
     word = random.choice(words_to_guess)
